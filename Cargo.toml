@@ -1,0 +1,3 @@
+[workspace]
+members = ["cora_gnn","tools"]
+resolver = "2"

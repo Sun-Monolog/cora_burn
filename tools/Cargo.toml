@@ -1,0 +1,9 @@
+[package]
+name = "tools"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cora_gnn = { path = "../cora_gnn" }
+rayon = "1.10.0"
+burn = {version = "0.15.0", features = ["default", "wgpu"]}
